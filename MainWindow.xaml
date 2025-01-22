@@ -135,11 +135,11 @@
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="144*"/>
-            <ColumnDefinition Width="410*"/>
-            <ColumnDefinition Width="313*"/>
-            <ColumnDefinition Width="16*"/>
-            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="216*"/>
+            <ColumnDefinition Width="523*"/>
+            <ColumnDefinition Width="417*"/>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="23*"/>
         </Grid.ColumnDefinitions>
 
         <!-- مربع البحث -->
@@ -152,20 +152,15 @@
                  TextChanged="SearchBox_TextChanged" 
                  Grid.Column="0" Grid.ColumnSpan="3" Height="92">
             <TextBox.InputBindings>
-                <!-- اختصار Ctrl + C -->
                 <KeyBinding Key="C" Modifiers="Control" Command="Copy"/>
-                <!-- اختصار Ctrl + V -->
                 <KeyBinding Key="V" Modifiers="Control" Command="Paste"/>
-                <!-- اختصار Ctrl + X -->
                 <KeyBinding Key="X" Modifiers="Control" Command="Cut"/>
             </TextBox.InputBindings>
         </TextBox>
-
-        <!-- قائمة التطبيقات -->
         <ScrollViewer VerticalScrollBarVisibility="Auto" 
                       HorizontalScrollBarVisibility="Auto" 
-                      Margin="10,112,-174,0" 
-                      Grid.ColumnSpan="4" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+                      Margin="10,112,10,0" 
+                      Grid.ColumnSpan="3" RenderTransformOrigin="0.5,0.5">
             <StackPanel x:Name="AppsPanel" 
                         Style="{StaticResource StackPanelStyle}"
                         Orientation="Vertical" 

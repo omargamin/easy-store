@@ -3,29 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 
 namespace Xstore
 {
+
     public partial class MainWindow : Window
     {
-        // قائمة التطبيقات
+       
         private List<ApplicationInfo> apps;
 
         public MainWindow()
         {
             InitializeComponent();
-            InitializeApps();  // تهيئة التطبيقات
-            LoadApps(apps);    // تحميل التطبيقات على واجهة المستخدم
+            InitializeApps();  
+            LoadApps(apps);   
         }
 
-        // كلاس للتطبيق
         private class ApplicationInfo
         {
             public string Name { get; set; }
             public string Link { get; set; }
         }
 
-        // تهيئة قائمة التطبيقات
         private void InitializeApps()
         {
             apps = new List<ApplicationInfo>
@@ -262,6 +264,10 @@ new ApplicationInfo { Name = "Borderlands 3", Link = "https://borderlands.com/en
         {
             SearchApps(SearchBox.Text);
         }
+        private void Support_Button_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
 
         // عند الضغط على زر إعادة التحميل
         private void ReloadButton_Click(object sender, RoutedEventArgs e)

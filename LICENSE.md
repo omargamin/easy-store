@@ -15,7 +15,6 @@ GNU General Public License for more details.
 
 - You should have received a copy of the GNU General Public Licensealong with this program. If not, see https://www.gnu.org/licenses/
 # Program Info:
-
 ### Description:
 - X Store is a next-generation gaming store application that provides an interactive and immersive experience for users. With an intuitive user interface, users can easily browse and purchase their favorite games.
 ### Technologies Used:
