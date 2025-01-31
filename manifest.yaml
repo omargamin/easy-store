@@ -1,12 +1,17 @@
 Id: OmarDEV.XStore
 Name: X Store
+<<<<<<< HEAD
 Old Name: easy-store
+=======
+OldName: easy-store
+>>>>>>> 0c89ae10ed2ecdd78b30f53883d027bdcf5537d3
 Version: 1.0.0
 Publisher: OmarDEV
 Description: >
   X Store is a next-generation gaming store application that provides an
   interactive and immersive experience for users. With an intuitive user
   interface, users can easily browse and purchase their favorite games.
+<<<<<<< HEAD
 Home page: https://omargaming.pro/x-store/
 License: GPL-3.0
 Installer Type: .application
@@ -14,6 +19,15 @@ Installers:
   - Architecture: x64
     Url: https://omargaming.pro/downloads/XStore%20Setup.zip
     install File name: Easy Store.application
+=======
+Homepage: https://omargaming.pro/x-store/
+License: GPL-3.0
+InstallerType: application
+Installers:
+  - Architecture: x64
+    Url: https://omargaming.pro/downloads/XStore%20Setup.zip
+    Filename: Easy Store.application
+>>>>>>> 0c89ae10ed2ecdd78b30f53883d027bdcf5537d3
     Notes: >
       "Easy Store.application" is the setup file for X Store.
       Do not delete the "Application Files" folder inside the ZIP, as it is
