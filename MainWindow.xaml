@@ -90,7 +90,6 @@
                 </EventTrigger>
             </Style.Triggers>
         </Style>
-
         <!-- Style للقائمة -->
         <Style x:Key="StackPanelStyle" TargetType="StackPanel">
             <Setter Property="Background" Value="#222"/>
@@ -148,9 +147,9 @@
                  HorizontalAlignment="Left" 
                  VerticalAlignment="Top"
                  Margin="96,10,0,0" 
-                 Width="944" 
+                 Width="925" 
                  TextChanged="SearchBox_TextChanged" 
-                 Grid.Column="0" Grid.ColumnSpan="3" Height="92">
+                 Grid.Column="0" Grid.ColumnSpan="3" Height="97">
             <TextBox.InputBindings>
                 <KeyBinding Key="C" Modifiers="Control" Command="Copy"/>
                 <KeyBinding Key="V" Modifiers="Control" Command="Paste"/>
@@ -169,5 +168,15 @@
                         Margin="10">
             </StackPanel>
         </ScrollViewer>
+        <Button Grid.Column="2" Content="site" FontSize="43" HorizontalAlignment="Left" Margin="369,21,0,0" VerticalAlignment="Top" Height="57" Width="90" Background="#FFF00000" BorderBrush="White" Foreground="#FFFFFBFB" RenderTransformOrigin="0.5,0.5" Click="Button_Click" Grid.ColumnSpan="3">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="15.635"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-50.744"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Window>

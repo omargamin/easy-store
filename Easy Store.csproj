@@ -153,6 +153,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="WebSite\online version\apps.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -226,6 +227,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="easy_store_logo_background_on.ico" />
+    <Content Include="WebSite\about\about.html" />
+    <Content Include="WebSite\about\about.html.css" />
+    <Content Include="WebSite\about\about.html.js" />
+    <Content Include="WebSite\index\index.html" />
+    <Content Include="WebSite\index\index.html.css" />
+    <Content Include="WebSite\index\index.html.js" />
+    <Content Include="WebSite\online version\index.html" />
+    <Content Include="WebSite\online version\index.html.css" />
+    <Content Include="WebSite\online version\index.html.js" />
+    <Content Include="WebSite\online version\local_server.js" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="easy_store_logo_background_of.ico" />

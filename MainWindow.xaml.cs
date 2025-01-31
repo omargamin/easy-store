@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -273,6 +274,12 @@ new ApplicationInfo { Name = "Borderlands 3", Link = "https://borderlands.com/en
         private void ReloadButton_Click(object sender, RoutedEventArgs e)
         {
             LoadApps(apps); // إعادة تحميل التطبيقات
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo("https://omargaming.pro/x-store/") { UseShellExecute = true });
+
         }
     }
 }
